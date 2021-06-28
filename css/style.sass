@@ -1,0 +1,978 @@
+* 
+  margin: 0
+  padding: 0
+    
+html
+  font-size: 15px
+  font-family: "Russia"
+  background: #F3F4F5
+li 
+  list-style-type: none
+.container
+  width: 71%
+  margin: 0 auto
+a
+  text-decoration: none
+
+header
+  width: 100%
+  height: 100%
+  background: url("../img/header.png") no-repeat
+  background-size: 100% 100%
+
+.header 
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+
+
+
+.logo
+  display: flex
+  align-items: center  	
+  -ms-background: rgba(1, 57, 85, 0.18)
+  background: rgba(1, 57, 85, 0.18)
+  backdrop-filter: blur(5px)
+  margin: 2.7vw 0vw 2.7vw 4.68vw
+  width: 21.8vw
+  height: 5.2vw
+  &__img
+    width: 15%
+    margin-left: 1.1vw
+    margin-right: 0.89vw
+  &__dscr
+    font-style: normal
+    font-weight: 650
+    font-size: 1.09vw
+    color: #FFFFFF
+
+.dop
+  display: flex
+  align-items: center
+  &__item
+    width: 12vw
+    display: flex
+    align-items: center
+    margin-right: 1.67vw
+    &__img
+      width: 11%
+      margin-right: 0.52vw
+    &__dscr
+      font-style: normal
+      font-weight: normal
+      font-size: 0.83vw
+      color: #FFFFFF
+.img-logo
+  margin-right: 4.68vw
+  width: 6vw
+.nav
+  
+  background: #0388CB
+.menu
+  display: flex
+  justify-content: space-between
+  align-items: center
+  height: 3.3vw
+  &__box
+    margin-left: 4.68vw
+    &__items
+      width: 1.2vw
+      height: 0.1vw
+      background: #FFFFFF
+      border-radius: 5px
+      margin-bottom: 0.26vw
+  &__items
+    font-style: normal
+    font-weight: 500
+    font-size: 0.83vw
+    color: #FFFFFF
+    margin-right: 1.5vw
+    padding: 1.2vw 0.2vw
+    &:hover
+      background: #3B5172
+
+  &__social-network
+    display: flex
+    margin-right: 4.68vw
+    &__items
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 1.67vw
+      height: 1.67vw
+      margin-right: 0.31vw
+      background: #FFFFFF
+      border-radius: 4px
+.show
+  display: flex
+  justify-content: space-between
+.main
+  width: 71.4%
+  margin: 0 auto
+.section-news
+  display: flex
+  margin: 0 auto
+  background: #FFFFFF
+  position: relative
+.news
+  display: flex
+  justify-content: center
+  width: 85.83%
+  margin: 0 auto
+
+  &__items
+    display: flex
+    flex-direction: column
+    margin-top: 3.125vw 
+    z-index: 1
+    &__img-main
+      width: 100%
+      width: 29.6vw
+      margin-right: 1.67vw
+      margin-bottom: 1.04vw
+    &__main-dscr
+      width: 28vw
+      margin-bottom: 0.625vw
+      font-style: normal
+      font-weight: 600
+      font-size: 1.25vw
+      color: #00001F
+    &__main-date
+      margin-bottom: 1.56vw
+      font-style: normal
+      font-weight: normal
+      font-size: 0.73vw
+      color: #6B6980
+    &__main-btn
+      width: 7.34vw
+      height: 2.34vw
+      background: #FFFFFF
+      border: 1px solid #D9DFE9
+      box-sizing: border-box
+      border-radius: 5px
+      font-style: normal
+      font-weight: 600
+      font-size: 0.78vw
+      color: #00001F
+      margin-bottom: 3.34vw
+      &:hover
+        background: #D9DFE9
+    &__dop
+      width: 14.4vw 
+      height: 13.3vw
+      margin-right: 1.25vw
+      &__img
+        width: 9.64vw
+        margin-bottom: 0.625vw
+      &__dscr
+        display: flex
+        font-style: normal
+        font-weight: normal
+        font-size: 0.78vw
+        color: #00001F
+        margin-bottom: 0.625vw
+      &__date
+        margin-bottom: 1.56vw
+        font-style: normal
+        font-weight: normal
+        font-size: 0.73vw
+        color: #6B6980
+    &__news-dscr
+      width: 14vw
+      height: 6.4vw
+      &__dscr
+        font-style: normal
+        font-weight: normal
+        font-size: 0.78vw
+        color: #00001F
+        padding-right: 0.5vw
+      &__date
+        font-style: normal
+        font-weight: normal
+        font-size: 0.73vw
+        color: #6B6980
+        margin-top: 0.625vw
+        margin-bottom: 1.56vw
+.fon
+  position: absolute
+  width: 19%
+  height: auto
+  right: 0px
+  bottom: 0px
+  z-index: 0
+
+#events
+  background: url("../img/ng.png") no-repeat
+  background-size: 100% 100%
+
+.events
+  display: flex
+  justify-content: space-between
+  width: 86.83%
+  margin: 0 auto
+  padding-top: 3.125vw
+  &__name
+    font-style: normal
+    font-weight: 500
+    font-size: 1.67vw
+    color: #FFFFFF
+    margin-bottom: 1.25vw
+  &__img
+    margin-left: 0.84vw
+.items
+  display: flex
+  justify-content: space-between
+  width: 86.83%
+  margin: 0 auto
+  &__action
+    padding: 1.72vw 1.71vw 2.1vw 1.875vw
+    background: rgba(255, 255, 255, 0.15)
+    backdrop-filter: blur(42px)
+    border-radius: 5px
+    border: 1px solid #90B1CF
+    &:hover
+      background: rgba(255, 255, 255, 0.3)
+    &__dscr
+      font-style: normal
+      font-weight: 500
+      font-size: 0.78vw
+      line-height: 1.15vw
+      color: #FFFFFF
+      margin-bottom: 2.76vw
+    &__bottom
+      display: flex
+      justify-content: space-between
+      align-items: flex-end
+      &__date
+        background: #ED1A34
+        padding: 0.26vw
+        height: 1vw
+        font-style: normal
+        font-weight: normal
+        font-size: 0.73vw
+        line-height: 0.94vw
+        color: #FFFFFF
+        margin-right: 7.86vw
+.events-btn
+  border: 1px solid #FFFFFF
+  box-sizing: border-box
+  border-radius: 5px
+  font-style: normal
+  font-weight: 500
+  font-size: 0.78vw
+  color: #FFFFFF
+  background: none
+  padding: 0.52vw 1.25vw
+  width: 9.33vw
+  margin-top: 1.56vw
+  margin-bottom: 2.3vw
+  &:hover
+    background: #a5a5a5
+    
+.widget1
+  background: #02BFCB
+  padding: 2.19vw 3.19vw
+  margin-bottom: 3.75vw
+  &__name
+    font-style: normal
+    font-weight: 500
+    font-size: 1.25vw
+    color: #FFFFFF
+    margin-bottom: 0.84vw
+  &__block
+    display: flex
+    justify-content: space-between
+    &__dscr
+      font-style: normal
+      font-weight: normal
+      font-size: 0.84vw
+      line-height: 1.15vw
+      color: #FFFFFF
+      margin-bottom: 2.7vw
+      margin-right: 4.32vw
+    &__next
+      display: flex
+      font-style: normal
+      font-weight: 500
+      font-size: 0.78vw
+      color: #FFFFFF
+      margin-right: 0.625vw
+    &__img
+      width: 10%
+    &__bottom
+      display: flex
+  &__img
+    width: 22%
+
+.widget2
+  background: #0388CB
+  padding: 2.19vw 3.19vw
+  margin-bottom: 3.75vw
+  &__block
+    &__dscr
+      font-style: normal
+      font-weight: normal
+      font-size: 0.84vw
+      line-height: 1.15vw
+      color: #FFFFFF
+      margin-bottom: 2.7vw
+      margin-right: 3.54vw
+
+.useful-links
+  position: relative
+  background: #FFFFFF
+  padding-bottom: 3.96vw
+  &__name
+    width: 85.83%
+    margin: 0 auto
+    font-style: normal
+    font-weight: 600
+    font-size: 1.67vw
+    color: #00001F
+    padding-top: 3.34vw
+    padding-bottom: 1.25vw
+  &__row
+    display: flex
+    justify-content: space-between
+    width: 85.83%
+    margin: 0 auto
+    &__block
+      display: flex
+      width: 27%
+      background: #F4F4F5
+      border-radius: 5px
+      padding: 1.46vw 1.25vw 1.25vw 1.77vw
+      margin-bottom: 1.25vw
+      z-index: 1
+      &:hover
+        background: #dadae4
+      &__dscr
+        font-style: normal
+        font-weight: 600
+        font-size: 0.78vw
+        color: #00001F
+      &__img
+        width: 15%
+        margin: 2.19vw 0 0 auto
+    
+.fon-left
+  position: absolute
+  width: 19%
+  height: auto
+  left: 0px
+  bottom: 0px
+  z-index: 0
+footer
+  background: #3B5172
+.footer
+  display: flex
+  justify-content: space-between
+  width: 61.84%
+  margin: 0 auto
+  &__col
+    display: flex
+    flex-direction: column
+    margin-top: 2.1vw
+    &__logo
+      display: flex
+      align-items: center
+      &__img
+        margin-right: 0.9vw
+        width: 9%
+      &__dscr
+        font-style: normal
+        font-weight: 500
+        font-size: 0.84vw
+        color: #FFFFFF
+    &__cop
+      font-style: normal
+      font-weight: normal
+      font-size: 0.73vw
+      color: #BFC2CA
+      margin-top: 1.46vw
+      margin-bottom: 1.04vw
+    &__cart
+      display: flex
+      &__img
+        margin-right: 0.52vw
+        margin-bottom: 3.23vw
+      &__dscr
+        font-style: normal
+        font-weight: normal
+        font-size: 0.78vw
+        color: #FFFFFF
+    &__link
+      margin-bottom: 0.52vw
+      font-style: normal
+      font-weight: 500
+      font-size: 0.78vw
+      color: #FFFFFF
+      &:hover
+        color: #0388CB
+    &__tel
+      margin-bottom: 0.31vw
+      font-style: normal
+      font-weight: normal
+      font-size: 0.73vw
+      color: #BFC2CA
+    &__tel-link
+      margin-bottom: 1.04vw
+      font-style: normal
+      font-weight: 500
+      font-size: 0.84vw
+      color: #FFFFFF
+    &__adr
+      margin-bottom: 0.83vw
+      font-style: normal
+      font-weight: 500
+      font-size: 0.78vw
+      color: #FFFFFF
+    &__mail
+      margin-bottom: 1.46vw
+      font-style: normal
+      font-weight: 500
+      font-size: 0.78vw
+      color: #FFFFFF
+    &__img-logo
+      width: 6vw
+
+.footer-soc
+  margin-bottom: 1.47vw
+
+#scroll_top 
+  position: fixed
+  bottom: 0.86vw
+  right: 2.5vw
+  z-index: 1000
+  width: 1.67vw
+  height: 1.67vw
+  background: url("../img/up.png") 50% 50% no-repeat
+  border-radius: 50%
+  opacity: 1
+
+
+
+@media (max-width: 1600px)
+  .news
+    &__items
+      &__news-dscr
+        height: 8.5vw
+        &__date
+          margin-top: 1vw
+  .widget1
+    padding: 1.19vw 2vw
+    margin-bottom: 2.75vw
+    &__block
+      &__dscr
+        margin-right: 2.54vw
+  .widget2
+    margin-bottom: 2.75vw
+    &__block
+      &__dscr
+        margin-right: 2.54vw
+  .useful-links
+    &__row
+      &__block
+        &__img
+          width: 15%
+          margin: 2.19vw 0 0 auto  
+
+@media (max-width: 1200px)
+
+  .news
+    &__items
+      &__main-dscr
+        width: 80%
+  .menu
+    &__social-network
+      &__items
+        &__img
+          width: 40%
+  .widget1
+    padding: 1.19vw 2vw
+    margin-bottom: 2.75vw
+    &__block
+      &__dscr
+        margin-right: 1vw
+  .widget2
+    margin-bottom: 2.75vw
+    &__block
+      &__dscr
+        margin-right: 1vw
+
+@media (max-width: 1024px)
+  .logo__dscr
+    font-size: 1.45vw
+  .dop
+    &__item
+      margin-right: 1.67vw
+      &__img
+        width: 22%
+        margin-right: 0.8vw
+      &__dscr
+        font-style: normal
+        font-weight: normal
+        font-size: 1.45vw
+        color: #FFFFFF
+  .img-logo
+    width: 6vw
+  nav
+    height: 3.3vw
+    background: #0388CB
+
+    &__items
+      font-size: 1.1vw
+  .show 
+    margin: 0vw 1.2vw
+  .menu
+    &__items
+      display: flex
+      align-items: center
+      font-size: 1.1vw
+      margin-right: 0
+      padding: 0.5vw
+    &__social-network
+      &__items
+        width: 1.8vw
+        height: 1.8vw
+        &__img
+          width: 50%
+  .block3
+    display: none
+  .news
+    &__items
+      &__img-main
+        width: 43.6vw
+        margin-right: 2.67vw
+      &__main-dscr
+        font-size: 1.9vw
+      &__main-date
+        font-size: 1.5vw
+      &__main-btn
+        width: 11.34vw
+        height: 4.34vw
+        font-size: 1.5vw
+      &__dop
+        width: 13.4vw 
+        height: 21.3vw
+        &__img
+          width: 14.64vw
+        &__dscr
+          font-size: 1.5vw
+        &__date
+          font-size: 1.25vw
+  .events
+    &__name
+      font-size: 2.67vw
+  .items
+    &__action
+      width: 24%
+      &__dscr
+        font-size: 1.5vw
+        line-height: 2vw
+      &__bottom
+        &__date
+          width: 50%
+          height: 4.5vw
+          font-size: 1.25vw
+          line-height: 1.5vw
+        &__img
+          width: 15%
+  .events-btn
+    font-size: 1.5vw
+    width: 15.33vw
+  .widget1
+    width: 42%
+    padding: 1.19vw 1.19vw
+    &__name
+      font-size: 1.7vw
+    &__block
+      align-items: flex-end
+      &__dscr
+        font-size: 1.55vw
+        line-height: 2vw
+        margin-bottom: 2.7vw
+        margin-right: 0.32vw
+      &__next
+        font-weight: 500
+        font-size: 1.3vw
+      &__img
+        width: 10%
+    &__img
+      height: 0%
+      width: 25%
+  .widget2
+    width: 42%
+    padding: 1.19vw 1.19vw
+    &__block
+      &__dscr
+        font-size: 1.5vw
+        line-height: 2vw
+        margin-bottom: 2.7vw
+        margin-right: 1.32vw
+  .useful-links
+    &__name
+      font-size: 2.67vw
+    &__row
+      &__block
+        &__dscr
+          font-size: 1.5vw
+        &__img
+          width: 25%
+          margin: 2.19vw 0 0 auto
+
+  .footer
+    &__col
+      margin-right: 1vw
+      &__logo
+        &__img
+          width: 20%
+        &__dscr
+          font-size: 1.5vw
+      &__cop
+        font-size: 1.2vw
+      &__cart
+        &__img
+          margin-right: 0.52vw
+          margin-bottom: 3.23vw
+        &__dscr
+          font-size: 1.4vw
+      &__link
+        font-size: 1.5vw
+      &__tel
+        font-size: 1.2vw
+      &__tel-link
+        font-size: 1.5vw
+      &__adr
+        font-size: 1.5vw
+      &__mail
+        font-size: 1.5vw
+  #scroll_top 
+    width: 2.67vw
+    height: 2.67vw
+
+@media ( max-width: 770px )
+  
+
+  .container
+    width: 100%
+  .logo
+    width: 28.8vw
+    height: 11.2vw
+    margin: 0vw
+    &__img
+      width: 20%
+    &__dscr
+      font-size: 2.09vw
+  .dop
+    &__item
+      margin-right: 1.67vw
+      width: 20vw
+      &__img
+        width: 10%
+      &__dscr
+        font-size: 1.83vw
+
+  .menu
+    width: 99%
+    justify-content: space-evenly
+    flex-direction: column
+    padding-top: 2vw
+    &__box
+      width: 3.2vw
+      height: 0.2vw
+      margin-bottom: 0.3vw
+    &__items
+      display: none
+    &__social-network
+      display: none
+
+
+  .menu__show
+    display: block
+    flex-direction: column
+    height: 2.5vw
+    text-align: center
+    font-size: 2.2vw
+    padding-top: 1vw
+    padding-bottom: 1vw
+    background: #0388cb
+    opacity: 1
+    width: 100%
+    z-index: 100
+
+    
+  .main
+    width: 100%
+  .news
+    display: flex
+    justify-content: center
+    width: 55.83%
+    margin: 0 auto
+    &__items
+      &__img-main
+
+      &__main-dscr
+        font-size: 2.25vw
+      &__main-date
+        font-size: 1.73vw
+      &__main-btn
+        width: 16.34vw
+        height: 5.34vw
+        font-size: 1.78vw
+  .block2
+    display: none
+  .fon
+    display: none
+
+  .nav
+    height: 6vw
+  .events
+    display: flex
+    justify-content: center
+    width: 100%
+    &__name
+      font-size: 2.67vw
+    &__arre
+      display: none
+  .items
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 100%
+    &__action
+      width: 50%
+      margin: 1vw
+      &__dscr
+        font-size: 2.4vw
+      &__bottom
+        &__date
+          padding: 1vw
+          width: 27%
+          font-size: 2vw
+
+  .events-btn
+    background: rgba(255, 255, 255, 0.45)
+    font-size: 1.78vw
+    font-weight: 600
+    width: 16.33vw
+
+
+  .widget1
+    width: 47%
+    padding: 2.19vw 3.19vw
+    &__name
+      font-size: 2.55vw
+    &__block
+      &__dscr
+        font-size: 2vw
+        line-height: 2.15vw
+      &__next
+        font-size: 2vw
+  .widget2
+    width: 47%
+    padding: 2.19vw 3.19vw
+    &__block
+      &__dscr
+        font-size: 2vw
+        line-height: 2.15vw
+  .useful-links
+    &__name
+      display: flex
+      justify-content: center
+      width: 100%
+      font-size: 2.67vw
+    &__row
+      width: 95%
+      &__block
+        width: 29%
+        &__dscr
+          font-size: 2.1vw
+        &__img
+          width: 25%
+  .fon-left
+    display: none
+  .footer
+    width: 95%
+    &__col
+      &__logo
+        &__img
+          width: 18%
+        &__dscr
+          font-size: 1.84vw
+      &__cop
+        font-size: 1.73vw
+      &__cart
+        &__img
+        &__dscr
+          font-size: 1.78vw
+      &__link
+        font-size: 1.78vw
+      &__tel
+        font-size: 1.73vw
+      &__tel-link
+        font-size: 1.84vw
+      &__adr
+        font-size: 1.78vw
+      &__mail
+        font-size: 1.78vw
+   
+  #scroll_top 
+    width: 4.2vw
+    height: 4.2vw
+
+@media( max-width: 480px )
+  .header 
+    display: block
+    width: 100%
+    height: 13.72vw
+  .logo
+    display: flex
+    justify-content: center
+    align-items: center  	
+    width: 100%
+    height: 10.2vw
+    &__img
+      width: 7%
+    &__dscr
+      font-size: 3.09vw
+  .dop
+    display: flex
+    justify-content: space-around
+    align-items: center
+    &__item
+      width: 42vw
+      &__img
+        width: 7%
+      &__dscr
+        font-size: 2.83vw
+  .img-logo
+    display: none
+  .fon
+    display: none
+  main
+    .news
+      width: 80%
+      &__items
+        &__img-main
+          width: 100%
+        &__main-dscr
+          font-size: 4.25vw
+        &__main-date
+          font-size: 3.73vw
+        &__main-btn
+          width: 34.34vw
+          height: 9.34vw
+          font-size: 3.78vw
+    .fon
+      display: none
+
+
+  .events
+    &__name
+      font-size: 5.67vw
+  .items
+    &__action
+      width: 66%
+      margin: 1vw
+      &__dscr
+        font-size: 4.4vw
+        line-height: 5vw
+      &__bottom
+        &__date
+          padding: 3vw
+          width: 41%
+          font-size: 4vw
+
+  .events-btn
+    font-size: 4.78vw
+    width: 39.33vw
+
+
+  .widget1
+    width: 66%
+    padding: 2.19vw 3.19vw
+    &__name
+      font-size: 4.55vw
+    &__block
+      &__dscr
+        font-size: 3vw
+        line-height: 3.15vw
+      &__next
+        font-size: 3vw
+  .widget2
+    width: 66%
+    padding: 2.19vw 3.19vw
+    &__block
+      &__dscr
+        font-size: 3vw
+        line-height: 3.15vw
+      &__next
+        font-size: 3vw
+
+  .useful-links
+    &__name
+      font-size: 4.67vw
+    &__row
+      display: flex
+      flex-direction: column
+      align-items: center
+      width: 100%
+      &__block
+        align-items: center
+        width: 66%
+        margin-bottom: 5vw
+        &__dscr
+          font-size: 5.1vw
+        &__img
+          width: 13%
+
+  .footer
+    width: 100%
+    display: flex
+    flex-direction: column
+    align-items: center
+    &__col
+      margin-right: 0vw
+      margin-bottom: 4vw
+      &__logo
+        margin-bottom: 2vw
+        &__img
+          width: 17%
+        &__dscr
+          font-size: 3.84vw
+      &__cop
+        font-size: 2.73vw
+        margin-bottom: 2vw
+      &__cart
+        display: flex
+        justify-content: center
+        margin-bottom: 2vw
+        &__img
+          width: 8%
+        &__dscr
+          font-size: 3.78vw
+      &__link
+        font-size: 4.78vw
+      &__tel
+        font-size: 4.73vw
+      &__tel-link
+        font-size: 4.84vw
+      &__adr
+        font-size: 4.78vw
+      &__mail
+        font-size: 4.78vw
+  .footer-soc
+    display: flex
+    justify-content: center
+    margin-top: 3vw
+
+  .menu__social-network__items
+    width: 33%
+    width: 7.67vw
+    height: 7.67vw
+    margin-right: 3.31vw
+  #scroll_top 
+    width: 7.2vw
+    height: 7.2vw
